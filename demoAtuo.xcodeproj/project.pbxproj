@@ -360,8 +360,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oyzhx.quanquan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fef9787b-4129-4455-a5bf-d13eba6f633f";
-				PROVISIONING_PROFILE_SPECIFIER = Automatic;
+				PROVISIONING_PROFILE = "11c22619-f323-4f52-8ffe-70a7b554ee75";
+				PROVISIONING_PROFILE_SPECIFIER = quanquan;
 				SDKROOT = iphoneos10.3;
 			};
 			name = Debug;
@@ -371,15 +371,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Maia Technology Co.,Ltd. (73PJX636Y6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Maia Technology Co.,Ltd. (73PJX636Y6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 73PJX636Y6;
 				INFOPLIST_FILE = demoAtuo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oyzhx.quanquan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fef9787b-4129-4455-a5bf-d13eba6f633f";
-				PROVISIONING_PROFILE_SPECIFIER = Automatic;
+				PROVISIONING_PROFILE = "11c22619-f323-4f52-8ffe-70a7b554ee75";
+				PROVISIONING_PROFILE_SPECIFIER = quanquan;
 				SDKROOT = iphoneos10.3;
 			};
 			name = Release;
