@@ -169,6 +169,7 @@
 					9BD1EAFF1B898334006C43F6 = {
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = 73PJX636Y6;
+						ProvisioningStyle = Manual;
 					};
 					9BD1EB181B898334006C43F6 = {
 						CreatedOnToolsVersion = 6.4;
@@ -352,11 +353,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 73PJX636Y6;
 				INFOPLIST_FILE = demoAtuo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oyzhx.quanquan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cf3bf5f5-079c-443a-a227-f3ef9e2ce3a5";
+				PROVISIONING_PROFILE_SPECIFIER = quanquan;
 			};
 			name = Debug;
 		};
@@ -365,11 +369,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 73PJX636Y6;
 				INFOPLIST_FILE = demoAtuo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oyzhx.quanquan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fef9787b-4129-4455-a5bf-d13eba6f633f";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.oyzhx.quanquan";
 			};
 			name = Release;
 		};
