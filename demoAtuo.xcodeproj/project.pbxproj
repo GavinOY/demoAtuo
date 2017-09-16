@@ -302,7 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -340,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -356,11 +356,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 73PJX636Y6;
 				INFOPLIST_FILE = demoAtuo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oyzhx.quanquan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "cf3bf5f5-079c-443a-a227-f3ef9e2ce3a5";
+				PROVISIONING_PROFILE = "fe2ef0a2-9607-4e2a-a894-96db83f3b4d0";
 				PROVISIONING_PROFILE_SPECIFIER = quanquan;
+				SDKROOT = iphoneos10.3;
 			};
 			name = Debug;
 		};
@@ -372,11 +374,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 73PJX636Y6;
 				INFOPLIST_FILE = demoAtuo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oyzhx.quanquan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fef9787b-4129-4455-a5bf-d13eba6f633f";
-				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.oyzhx.quanquan";
+				PROVISIONING_PROFILE = "fe2ef0a2-9607-4e2a-a894-96db83f3b4d0";
+				PROVISIONING_PROFILE_SPECIFIER = quanquan;
+				SDKROOT = iphoneos10.3;
 			};
 			name = Release;
 		};
