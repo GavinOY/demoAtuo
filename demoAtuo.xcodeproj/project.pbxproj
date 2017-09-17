@@ -169,7 +169,7 @@
 					9BD1EAFF1B898334006C43F6 = {
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = 73PJX636Y6;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					9BD1EB181B898334006C43F6 = {
 						CreatedOnToolsVersion = 6.4;
@@ -360,8 +360,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oyzhx.quanquan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "11c22619-f323-4f52-8ffe-70a7b554ee75";
+				PROVISIONING_PROFILE_SPECIFIER = quanquan;
 				SDKROOT = iphoneos10.3;
 			};
 			name = Debug;
@@ -378,8 +378,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oyzhx.quanquan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "11c22619-f323-4f52-8ffe-70a7b554ee75";
+				PROVISIONING_PROFILE_SPECIFIER = quanquan;
 				SDKROOT = iphoneos10.3;
 			};
 			name = Release;
